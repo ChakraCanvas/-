@@ -1,1 +1,112 @@
-# -
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aacc 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+        }
+        .footer {
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .contact-info, .projects {
+            margin-bottom: 20px;
+        }
+        .project {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>個人網站</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">關於我</a></li>
+                    <li><a href="#contact">聯繫方式</a></li>
+                    <li><a href="#projects">項目介紹</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container main">
+        <section id="about">
+            <h2>關於我</h2>
+            <p>我是專業的心理藝術治療師，專注於敘事和認知取向的治療方法。我熱愛通過藝術創作來幫助個人探索和表達他們的內心世界，並且相信每個人都可以通過敘事和認知轉變來找到自己的療癒之路。</p>
+        </section>
+
+        <section id="contact">
+            <h2>聯繫方式</h2>
+            <div class="contact-info">
+                <p>Email: example@example.com</p>
+                <p>電話: 1234-5678</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>項目介紹</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>項目一：敘事治療</h3>
+                    <p>敘事治療是一種幫助人們重新書寫自己生活故事的方法，通過外化問題和探索個人故事中的價值觀，來促進心理健康和個人成長。</p>
+                </div>
+                <div class="project">
+                    <h3>項目二：認知治療</h3>
+                    <p>認知治療主要關注於改變不健康的思維模式，通過識別和挑戰消極思維，來改變個人的情感和行為反應。</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 個人網站. 保留所有權利。</p>
+    </footer>
+</body>
+</html>
